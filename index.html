@@ -30,6 +30,8 @@
     --accent-line: rgba(212, 95, 193, 0.45);
     --py-blue: #4b8bbe;
     --py-yellow: #f2c94c;
+    --bi-yellow1: #f2c94c;
+    --bi-yellow2: #ce9d0c;
 
     --font-head: "Outfit", system-ui, sans-serif;
     --font-body: "Source Sans 3", system-ui, sans-serif;
@@ -222,6 +224,12 @@
     font-weight: 500; letter-spacing: 0.06em; color: var(--text-dim);
   }
   .lang i { width: 11px; height: 11px; border-radius: 50%; background: linear-gradient(135deg, var(--py-blue) 50%, var(--py-yellow) 50%); }
+
+  .appPowerBI {
+    display: inline-flex; align-items: center; gap: 9px; font-family: var(--font-head); font-size: 13px;
+    font-weight: 500; letter-spacing: 0.06em; color: var(--text-dim);
+  }
+  .appPowerBI i { width: 11px; height: 11px; border-radius: 50%; background: linear-gradient(135deg, var(--bi-yellow1) 50%, var(--bi-yellow2) 50%); }
   .project-id { font-family: var(--font-head); font-size: 13px; color: var(--text-faint); letter-spacing: 0.08em; }
   .project h3 { font-family: var(--font-head); font-weight: 600; font-size: clamp(26px, 3.4vw, 34px); letter-spacing: -0.015em; line-height: 1.15; }
   .project p { margin-top: 14px; color: var(--text-dim); max-width: 56ch; }
@@ -419,7 +427,7 @@
               <span class="tag">Controle de qualidade</span>
               <span class="tag">Garantia da Qualidade</span>
               <span class="tag">P&amp;D</span>
-              <!-- <span class="tag">Análise sensorial</span> -->
+              <span class="tag">Análises químicas</span>
             </div>
           </div>
           <div class="skill-group">
@@ -495,7 +503,7 @@
 
           <div class="project-body">
               <div class="project-top">
-                 <span class="lang"><i></i>Power BI</span>
+                 <span class="appPowerBI"><i></i>Power BI</span>
                  <span class="project-id">02</span>
               </div>
           <h3>Repositório de Dashboards no Power BI</h3>
